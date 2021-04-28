@@ -1,3 +1,7 @@
 *~
 **/main
 *.swp
+/tmp/
+coverage.txt
+profile.out
+pki.yaml

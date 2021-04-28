@@ -84,3 +84,11 @@ For more info about available flags, checkout out the help `easypki -h`.
 # Disclaimer
 
 This is not an official Google product.
+
+# Usages
+
+```
+go run ../example/client-auth/client-auth.go -config_path ../example/client-auth/pki.yaml -db_path pki.boltdb
+
+go run example/client-auth/client-auth-local.go -config_path pki.yaml -db_path tmp
+```
